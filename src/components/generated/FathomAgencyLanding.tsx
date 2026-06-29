@@ -1158,7 +1158,8 @@ const ContactSection = () => {
     e.preventDefault();
     const subject = encodeURIComponent("Hired Connect Enquiry");
     const body = encodeURIComponent(
-      `Name: ${form.name}\n` +
+      `Name: ${form.fullName}\n` +
+      `Organisation: ${form.organisation || 'N/A'}\n` +
       `Email: ${form.email}\n` +
       `Phone: ${form.phone || 'N/A'}\n` +
       `Service: ${form.service || 'N/A'}\n\n` +
