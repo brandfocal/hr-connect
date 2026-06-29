@@ -12,17 +12,8 @@ import {
   Twitter,
   Menu,
   X,
-  Target,
-  Compass,
-  Award,
-  CheckCircle2,
-  Building2,
-  Users,
   Briefcase,
   GraduationCap,
-  Sparkles,
-  BookOpen,
-  CalendarDays,
   Globe,
   Coins,
   Landmark,
@@ -51,10 +42,10 @@ const FADE_UP_VARIANTS = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: [0.16, 1, 0.3, 1]
+      ease: [0.16, 1, 0.3, 1] as const
     }
   }
-};
+} as const;
 
 const STAGGER_CONTAINER = {
   hidden: {
