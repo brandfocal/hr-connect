@@ -204,7 +204,15 @@ const INDUSTRIES_DATA = [
   { name: "Development Sector", icon: Globe }
 ];
 
-const ACCORDION_SERVICES = [
+interface ServiceItem {
+  id: string;
+  title: string;
+  description: string;
+  subs: string[];
+  closingLine?: string;
+}
+
+const ACCORDION_SERVICES: ServiceItem[] = [
   {
     id: "svc-01",
     title: "Human Capital Advisory",
@@ -689,7 +697,7 @@ const ServicesAccordion = () => {
                     <p className="text-white/60 text-sm leading-relaxed font-light">
                       {svc.description}
                     </p>
-                    {"closingLine" in svc && svc.closingLine && <p className="text-fathom-terracotta/80 text-xs leading-relaxed font-light mt-4 italic">
+                    {svc.closingLine && <p className="text-fathom-terracotta/80 text-xs leading-relaxed font-light mt-4 italic">
                       {svc.closingLine}
                     </p>}
                   </div>
