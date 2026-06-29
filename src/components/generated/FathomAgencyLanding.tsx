@@ -1202,13 +1202,31 @@ const ContactSection = () => {
                 <div className="w-10 h-10 rounded-full border border-fathom-terracotta/40 flex items-center justify-center shrink-0 mt-0.5">
                   <Mail className="w-4 h-4 text-fathom-terracotta" />
                 </div>
-                <div>
-                  <p className="text-[9px] uppercase tracking-[0.28em] font-bold text-white/35 mb-1">
-                    Email
-                  </p>
-                  <a href="mailto:info@hrconnection.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
-                    info@hrconnection.co.za
-                  </a>
+                <div className="flex flex-col gap-3">
+                  <div>
+                    <p className="text-[8px] uppercase tracking-[0.2em] font-bold text-fathom-terracotta mb-0.5">
+                      Founder &amp; Managing Executive
+                    </p>
+                    <a href="mailto:lesego@hrconnection.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
+                      lesego@hrconnection.co.za
+                    </a>
+                  </div>
+                  <div>
+                    <p className="text-[8px] uppercase tracking-[0.2em] font-bold text-white/35 mb-0.5">
+                      General Enquiries
+                    </p>
+                    <a href="mailto:info@hrconnection.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
+                      info@hrconnection.co.za
+                    </a>
+                  </div>
+                  <div>
+                    <p className="text-[8px] uppercase tracking-[0.2em] font-bold text-white/35 mb-0.5">
+                      Talent Acquisition &amp; Recruitment
+                    </p>
+                    <a href="mailto:talent@hrconnection.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
+                      talent@hrconnection.co.za
+                    </a>
+                  </div>
                 </div>
               </div>
 
