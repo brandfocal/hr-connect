@@ -1156,16 +1156,21 @@ const ContactSection = () => {
   };
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Hired Connect Enquiry");
-    const body = encodeURIComponent(
-      `Name: ${form.fullName}\n` +
-      `Organisation: ${form.organisation || 'N/A'}\n` +
-      `Email: ${form.email}\n` +
-      `Phone: ${form.phone || 'N/A'}\n` +
-      `Service: ${form.service || 'N/A'}\n\n` +
-      `Message:\n${form.message}`
-    );
-    window.location.href = `mailto:info@hiredconnect.co.za?subject=${subject}&body=${body}`;
+    fetch("https://formsubmit.co/ajax/info@hiredconnect.co.za", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        name: form.fullName,
+        organisation: form.organisation,
+        email: form.email,
+        phone: form.phone,
+        service: form.service,
+        message: form.message
+      })
+    }).catch(err => console.error("Error submitting form:", err));
     setSubmitted(true);
   };
   const inputBase = "w-full bg-white/8 border border-white/15 text-white placeholder-white/30 rounded-lg px-4 py-3.5 text-sm font-light focus:outline-none focus:border-fathom-terracotta focus:ring-1 focus:ring-fathom-terracotta transition-all duration-200";
