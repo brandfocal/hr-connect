@@ -213,7 +213,7 @@ const ACCORDION_SERVICES: ServiceItem[] = [
   {
     id: "svc-02",
     title: "Talent Acquisition & Executive Search",
-    description: "Exceptional organisations are built by exceptional people. Hired Connect identifies, attracts and places high-calibre professionals and executive leaders who deliver measurable business impact.",
+    description: "Exceptional organisations are built by exceptional people. HR Connectionion identifies, attracts and places high-calibre professionals and executive leaders who deliver measurable business impact.",
     subs: ["Executive Search", "Executive Recruitment", "Professional Recruitment", "Specialist Talent Acquisition", "Talent Mapping", "Succession Planning", "Leadership Assessments", "Recruitment Process Outsourcing (RPO)", "Employer Branding"]
   },
   {
@@ -334,7 +334,7 @@ const Navbar = ({
       <div className="max-w-[1440px] mx-auto flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2">
           <span className={cn("font-serif text-xl md:text-2xl tracking-tighter font-bold transition-colors duration-300", isScrolled ? "text-fathom-ink" : "text-white")}>
-            Hired <span className="italic text-fathom-terracotta">Connect</span>
+            HR <span className="italic text-fathom-terracotta">Connection</span>
           </span>
         </a>
 
@@ -496,11 +496,11 @@ const Hero = () => {
   return <section id="home" ref={containerRef} onMouseMove={handleMouseMove} className="relative w-full min-h-screen flex flex-col lg:flex-row overflow-hidden">
     {/* Mobile: photo on top */}
     <div className="w-full h-[280px] lg:hidden relative overflow-hidden order-first">
-      <img src={hrConnect4} alt="Hired Connect, Executive leadership in the boardroom" className="w-full h-full object-cover brightness-75" />
+      <img src={hrConnect4} alt="HR Connectionion, Executive leadership in the boardroom" className="w-full h-full object-cover brightness-75" />
       <div className="absolute inset-0 bg-gradient-to-b from-fathom-ink/30 to-fathom-ink/60" />
       <div className="absolute bottom-5 left-5 bg-fathom-terracotta text-white px-4 py-3 shadow-2xl z-10">
         <p className="text-[9px] uppercase tracking-widest font-bold mb-0.5">Company Profile</p>
-        <p className="text-lg font-serif leading-none">Hired Connect</p>
+        <p className="text-lg font-serif leading-none">HR Connectionion</p>
       </div>
     </div>
 
@@ -525,7 +525,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.p variants={FADE_UP_VARIANTS} className="text-sm md:text-base text-white/55 max-w-md mb-8 md:mb-10 leading-[1.75] font-light">
-          Hired Connect partners with organisations to unlock their greatest asset: their people.
+          HR Connectionion partners with organisations to unlock their greatest asset: their people.
           We deliver integrated human capital solutions that strengthen leadership, connect
           exceptional talent and enable sustainable growth.
         </motion.p>
@@ -558,12 +558,12 @@ const Hero = () => {
         transform: `translate(${parallaxX}px, ${parallaxY}px)`,
         transition: "transform 0.15s ease-out"
       }}>
-        <img src={hrConnect4} alt="Hired Connect, Executive leadership in the boardroom" className="w-full h-full object-cover" />
+        <img src={hrConnect4} alt="HR Connectionion, Executive leadership in the boardroom" className="w-full h-full object-cover" />
       </div>
       <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-fathom-ink/40 to-transparent" />
       <div className="absolute bottom-8 left-8 bg-fathom-terracotta text-white px-6 py-4 shadow-2xl z-10">
         <p className="text-[9px] uppercase tracking-widest font-bold mb-0.5">Company Profile</p>
-        <p className="text-xl font-serif leading-none">Hired Connect</p>
+        <p className="text-xl font-serif leading-none">HR Connectionion</p>
       </div>
     </div>
   </section>;
@@ -719,7 +719,7 @@ const AboutSection = () => {
           <div className="flex items-center gap-3">
             <div className="w-5 h-px bg-[#B5654A]" />
             <span className="text-[9px] uppercase tracking-[0.3em] font-bold text-[#B5654A]">
-              About Hired Connect
+              About HR Connectionion
             </span>
           </div>
         </div>
@@ -735,10 +735,10 @@ const AboutSection = () => {
 
           <motion.div variants={FADE_UP_VARIANTS} className="space-y-5 text-white/70 text-sm md:text-base leading-relaxed font-light">
             <p>
-              Hired Connect is a strategic human capital, leadership development and talent solutions firm that helps organisations unlock their greatest asset: their people. We partner with businesses, government and institutions to develop exceptional leaders, connect organisations with outstanding talent and enable sustainable growth through innovative, customised human capital solutions.
+              HR Connectionion is a strategic human capital, leadership development and talent solutions firm that helps organisations unlock their greatest asset: their people. We partner with businesses, government and institutions to develop exceptional leaders, connect organisations with outstanding talent and enable sustainable growth through innovative, customised human capital solutions.
             </p>
             <p>
-              In an increasingly competitive and rapidly evolving world of work, organisations require more than traditional HR services. They need a strategic partner capable of aligning leadership, talent and organisational capability with business strategy. Hired Connect delivers integrated solutions that strengthen workforce performance, accelerate leadership capability and create lasting organisational value.
+              In an increasingly competitive and rapidly evolving world of work, organisations require more than traditional HR services. They need a strategic partner capable of aligning leadership, talent and organisational capability with business strategy. HR Connectionion delivers integrated solutions that strengthen workforce performance, accelerate leadership capability and create lasting organisational value.
             </p>
           </motion.div>
         </motion.div>
@@ -812,7 +812,7 @@ const AboutSection = () => {
 };
 
 /* ─────────────────────────────────────────────
-   WHY Hired Connect
+   WHY HR CONNECTIONionion
 ───────────────────────────────────────────── */
 
 const WhyChooseUs = () => {
@@ -855,7 +855,7 @@ const WhyChooseUs = () => {
           }} viewport={{
             once: true
           }}>
-            Our clients choose Hired Connect because we combine strategic thinking, commercial insight and execution excellence to create measurable organisational impact.
+            Our clients choose HR Connectionion because we combine strategic thinking, commercial insight and execution excellence to create measurable organisational impact.
           </motion.p>
 
           <motion.div className="relative aspect-[16/10] lg:aspect-auto lg:h-[420px] rounded-2xl overflow-hidden" initial={{
@@ -869,7 +869,7 @@ const WhyChooseUs = () => {
           }} viewport={{
             once: true
           }}>
-            <img src="/hr-connect6.jpg" alt="Hired Connect, people-centred leadership and organisational excellence" className="w-full h-full object-cover" />
+            <img src="/hr-connect6.jpg" alt="HR Connectionion, people-centred leadership and organisational excellence" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#2C1810]/80 via-[#2C1810]/20 to-transparent" />
             <div className="absolute top-0 left-0 w-full h-1 bg-fathom-terracotta" />
           </motion.div>
@@ -1003,7 +1003,7 @@ const ValueProposition = () => {
       }} viewport={{
         once: true
       }}>
-        <img src="/hr-connect3.jpg" alt="Hired Connect, Enabling Organisational Growth through diverse leadership" className="w-full h-full object-cover" />
+        <img src="/hr-connect3.jpg" alt="HR Connectionion, Enabling Organisational Growth through diverse leadership" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-fathom-ink/70 via-fathom-ink/30 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-1 bg-fathom-terracotta" />
         <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-white max-w-xs md:max-w-lg">
@@ -1027,7 +1027,7 @@ const ValueProposition = () => {
         </div>
 
         <motion.p variants={FADE_UP_VARIANTS} className="text-fathom-ink text-base md:text-lg leading-relaxed font-light">
-          At Hired Connect, we believe that organisational growth begins with exceptional leadership and exceptional people. We partner with organisations to develop leaders, connect outstanding talent, and enable sustainable growth through integrated human capital strategies, leadership development, executive search, customised learning solutions and world-class corporate experiences.
+          At HR Connectionion, we believe that organisational growth begins with exceptional leadership and exceptional people. We partner with organisations to develop leaders, connect outstanding talent, and enable sustainable growth through integrated human capital strategies, leadership development, executive search, customised learning solutions and world-class corporate experiences.
         </motion.p>
         <motion.p variants={FADE_UP_VARIANTS} className="text-fathom-ink text-base md:text-lg leading-relaxed font-light">
           We don't simply fill roles or deliver training; we build leadership capability, strengthen organisational performance and create future-ready workforces that drive long-term business success.
@@ -1047,7 +1047,7 @@ const FounderSection = () => {
   return <section id="leadership" className="w-full bg-[#1C1A18] overflow-hidden flex flex-col lg:flex-row">
     {/* Photo: top on mobile, left on desktop */}
     <div className="w-full lg:w-[44%] h-[320px] sm:h-[400px] lg:h-auto lg:min-h-screen relative overflow-hidden shrink-0">
-      <img src="/hr-connect9.jpg" alt="Lesego Tema: Founder & Managing Executive, Hired Connect" className="w-full h-full object-cover object-top" />
+      <img src="/hr-connect9.jpg" alt="Lesego Tema: Founder & Managing Executive, HR Connectionion" className="w-full h-full object-cover object-top" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1C1A18]/80 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1C1A18]/30 hidden lg:block" />
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-fathom-terracotta" />
@@ -1061,7 +1061,7 @@ const FounderSection = () => {
         <motion.div variants={FADE_UP_VARIANTS} className="flex items-center gap-3 mb-8 md:mb-10">
           <div className="w-6 h-px bg-fathom-terracotta" />
           <span className="text-[9px] uppercase tracking-[0.35em] font-bold text-fathom-terracotta">
-            Founder &amp; Managing Executive | Hired Connect
+            Founder &amp; Managing Executive | HR Connectionion
           </span>
         </motion.div>
 
@@ -1076,7 +1076,7 @@ const FounderSection = () => {
 
         <motion.div variants={FADE_UP_VARIANTS} className="space-y-4 md:space-y-5 text-white/55 text-sm leading-relaxed font-light">
           <p>
-            Lesego Tema is the Founder and Managing Executive of Hired Connect, a 100% Black woman-owned human capital, leadership development and talent solutions firm dedicated to developing leaders, connecting talent and enabling organisational growth.
+            Lesego Tema is the Founder and Managing Executive of HR Connectionion, a 100% Black woman-owned human capital, leadership development and talent solutions firm dedicated to developing leaders, connecting talent and enabling organisational growth.
           </p>
           <p>
             With more than 10 years of experience spanning human capital management, talent acquisition, executive recruitment, leadership development, organisational capability, learning and development, stakeholder engagement and premium corporate event delivery, Lesego has established a reputation for delivering innovative, commercially focused and people-centred solutions that create measurable organisational impact.
@@ -1098,10 +1098,10 @@ const FounderSection = () => {
                   As a passionate advocate for leadership excellence, women's advancement and workforce transformation, Lesego believes that people remain every organisation's greatest competitive advantage. Her leadership philosophy is centred on empowering individuals, strengthening teams and enabling organisations to thrive in an evolving world of work.
                 </p>
                 <p>
-                  Supported by a multidisciplinary team of experienced human capital specialists, facilitators, executive coaches, learning professionals and project managers, Hired Connect delivers integrated solutions that combine strategic insight with execution excellence. Together, they have successfully designed and delivered leadership programmes, executive development initiatives, talent acquisition projects, customised learning interventions and premium corporate conferences for organisations seeking sustainable people and business outcomes.
+                  Supported by a multidisciplinary team of experienced human capital specialists, facilitators, executive coaches, learning professionals and project managers, HR Connectionion delivers integrated solutions that combine strategic insight with execution excellence. Together, they have successfully designed and delivered leadership programmes, executive development initiatives, talent acquisition projects, customised learning interventions and premium corporate conferences for organisations seeking sustainable people and business outcomes.
                 </p>
                 <p>
-                  Under Lesego's leadership, Hired Connect continues to position itself as a trusted strategic partner to organisations committed to building future-ready workforces, developing exceptional leaders and creating cultures of high performance.
+                  Under Lesego's leadership, HR Connectionion continues to position itself as a trusted strategic partner to organisations committed to building future-ready workforces, developing exceptional leaders and creating cultures of high performance.
                 </p>
               </motion.div>
             )}
@@ -1156,7 +1156,7 @@ const ContactSection = () => {
   };
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const subject = encodeURIComponent("Hired Connect Enquiry");
+    const subject = encodeURIComponent("HR Connectionion Enquiry");
     const body = encodeURIComponent(
       `Name: ${form.fullName}\n` +
       `Organisation: ${form.organisation || 'N/A'}\n` +
@@ -1193,7 +1193,7 @@ const ContactSection = () => {
             </motion.h2>
 
             <motion.p variants={FADE_UP_VARIANTS} className="text-white/55 text-sm md:text-base leading-[1.8] font-light max-w-sm mb-10 md:mb-16">
-              Partner with Hired Connect to develop your leaders, connect exceptional talent and
+              Partner with HR Connectionion to develop your leaders, connect exceptional talent and
               enable sustainable growth across your organisation.
             </motion.p>
 
@@ -1307,7 +1307,7 @@ const ContactSection = () => {
               Thank you!
             </h3>
             <p className="text-white/60 text-sm md:text-base font-light leading-relaxed max-w-sm">
-              We'll be in touch shortly. Our team looks forward to exploring how Hired Connect can
+              We'll be in touch shortly. Our team looks forward to exploring how HR Connectionion can
               partner with your organisation.
             </p>
             <button onClick={() => {
@@ -1380,7 +1380,7 @@ const ContactSection = () => {
       {/* Footer bar */}
       <div className="mt-16 md:mt-20 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center sm:items-center justify-between gap-3 text-center sm:text-left">
         <p className="text-[9px] uppercase tracking-[0.22em] font-bold text-white/25">
-          © 2026 Hired Connect. All rights reserved.
+          © 2026 HR Connectionion. All rights reserved.
         </p>
         <p className="text-[9px] uppercase tracking-[0.22em] font-bold text-white/25">
           Developing Leaders. Connecting Talent. Enabling Growth.
@@ -1401,7 +1401,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-10 md:gap-12 mb-14 md:mb-20">
         <div>
           <a href="#home" className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 md:mb-8 tracking-tighter block">
-            Hired <span className="italic text-fathom-terracotta">Connect</span>
+            HR <span className="italic text-fathom-terracotta">Connection</span>
           </a>
           <div className="flex flex-wrap gap-6 md:gap-8">
             {FOOTER_LINKS.map(link => <a key={link.label} href={link.href} className="text-[9px] uppercase tracking-[0.3em] text-white/35 hover:text-fathom-terracotta transition-colors font-bold">
