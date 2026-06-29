@@ -812,7 +812,7 @@ const AboutSection = () => {
 };
 
 /* ─────────────────────────────────────────────
-   WHY Hired Connection
+   WHY HIRED CONNECT
 ───────────────────────────────────────────── */
 
 const WhyChooseUs = () => {
