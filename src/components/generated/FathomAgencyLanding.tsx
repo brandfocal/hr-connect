@@ -1210,8 +1210,8 @@ const ContactSection = () => {
                   <p className="text-[9px] uppercase tracking-[0.28em] font-bold text-white/35 mb-1">
                     Phone
                   </p>
-                  <a href="tel:+27110000000" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
-                    +27 (0) 11 000 0000
+                  <a href="tel:+27115686146" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
+                    011 568 6146
                   </a>
                 </div>
               </div>
@@ -1224,7 +1224,12 @@ const ContactSection = () => {
                   <p className="text-[9px] uppercase tracking-[0.28em] font-bold text-white/35 mb-1">
                     Location
                   </p>
-                  <p className="text-white text-sm md:text-base">Johannesburg, South Africa</p>
+                  <p className="text-white text-sm md:text-base leading-relaxed">
+                    OMSA House<br />
+                    11 Aimee Street<br />
+                    Randburg<br />
+                    2194
+                  </p>
                 </div>
               </div>
             </motion.div>
