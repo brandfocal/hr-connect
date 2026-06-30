@@ -332,14 +332,11 @@ const Navbar = ({
       isScrolled ? "bg-fathom-white/95 backdrop-blur-md py-4 shadow-sm border-b border-fathom-ink/5" : "bg-gradient-to-b from-black/40 to-transparent"
     )}>
       <div className="max-w-[1440px] mx-auto flex items-center justify-between">
-        <a href="#home" className="flex items-center">
+        <a href="#home" className="flex items-center bg-white px-3 py-2 rounded-lg border border-white/10 shadow-md hover:opacity-90 transition-opacity">
           <img 
             src="/hire-connect-logo.jpg" 
             alt="Hire Connect Logo" 
-            className={cn(
-              "h-10 md:h-12 w-auto object-contain transition-all duration-300",
-              isScrolled ? "mix-blend-multiply" : "invert mix-blend-screen"
-            )} 
+            className="h-8 md:h-10 w-auto object-contain" 
           />
         </a>
 
@@ -1413,11 +1410,11 @@ const Footer = () => {
     <div className="max-w-[1440px] mx-auto relative z-10 pt-4">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-10 md:gap-12 mb-14 md:mb-20">
         <div>
-          <a href="#home" className="inline-block">
+          <a href="#home" className="inline-block bg-white px-4 py-3 rounded-xl shadow-lg hover:opacity-90 transition-opacity">
             <img 
               src="/hire-connect-logo.jpg" 
               alt="Hire Connect Logo" 
-              className="h-16 md:h-20 w-auto object-contain invert mix-blend-screen" 
+              className="h-14 md:h-16 w-auto object-contain" 
             />
           </a>
           <div className="flex flex-wrap gap-6 md:gap-8">
