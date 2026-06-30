@@ -1047,7 +1047,7 @@ const FounderSection = () => {
   return <section id="leadership" className="w-full bg-[#1C1A18] overflow-hidden flex flex-col lg:flex-row">
     {/* Photo: top on mobile, left on desktop */}
     <div className="w-full lg:w-[44%] h-[320px] sm:h-[400px] lg:h-auto lg:min-h-screen relative overflow-hidden shrink-0">
-      <img src="/hr-connect9.jpg" alt="Nthabiseng Mosena: Founder & Managing Executive, Hired Connect" className="w-full h-full object-cover object-top" />
+      <img src="/Nthabiseng-Mosena.jpg" alt="Nthabiseng Mosena: Founder & Managing Executive, Hired Connect" className="w-full h-full object-cover object-top" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1C1A18]/80 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1C1A18]/30 hidden lg:block" />
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-fathom-terracotta" />
