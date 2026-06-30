@@ -332,7 +332,8 @@ const Navbar = ({
       isScrolled ? "bg-fathom-white/95 backdrop-blur-md py-4 shadow-sm border-b border-fathom-ink/5" : "bg-gradient-to-b from-black/40 to-transparent"
     )}>
       <div className="max-w-[1440px] mx-auto flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-3">
+          <img src="/hire-connect-logo.jpg" alt="Hire Connect Logo" className="w-8 h-8 rounded-full object-cover border border-fathom-terracotta/20" />
           <span className={cn("font-serif text-xl md:text-2xl tracking-tighter font-bold transition-colors duration-300", isScrolled ? "text-fathom-ink" : "text-white")}>
             Hire <span className="italic text-fathom-terracotta">Connect</span>
           </span>
@@ -1408,8 +1409,11 @@ const Footer = () => {
     <div className="max-w-[1440px] mx-auto relative z-10 pt-4">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-10 md:gap-12 mb-14 md:mb-20">
         <div>
-          <a href="#home" className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 md:mb-8 tracking-tighter block">
-            Hire <span className="italic text-fathom-terracotta">Connect</span>
+          <a href="#home" className="flex items-center gap-4 font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 md:mb-8 tracking-tighter">
+            <img src="/hire-connect-logo.jpg" alt="Hire Connect Logo" className="w-16 h-16 rounded-full object-cover border border-fathom-terracotta/20" />
+            <span>
+              Hire <span className="italic text-fathom-terracotta">Connect</span>
+            </span>
           </a>
           <div className="flex flex-wrap gap-6 md:gap-8">
             {FOOTER_LINKS.map(link => <a key={link.label} href={link.href} className="text-[9px] uppercase tracking-[0.3em] text-white/35 hover:text-fathom-terracotta transition-colors font-bold">
