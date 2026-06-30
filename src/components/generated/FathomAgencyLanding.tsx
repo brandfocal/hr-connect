@@ -496,7 +496,7 @@ const Hero = () => {
   return <section id="home" ref={containerRef} onMouseMove={handleMouseMove} className="relative w-full min-h-screen flex flex-col lg:flex-row overflow-hidden">
     {/* Mobile: photo on top */}
     <div className="w-full h-[280px] lg:hidden relative overflow-hidden order-first">
-      <img src={hrConnect4} alt="Hired Connect, Executive leadership in the boardroom" className="w-full h-full object-cover brightness-75" />
+      <img src={hrConnect4} alt="Hired Connect, Executive leadership in the boardroom" className="w-full h-full object-cover object-top brightness-75" />
       <div className="absolute inset-0 bg-gradient-to-b from-fathom-ink/30 to-fathom-ink/60" />
       <div className="absolute bottom-5 left-5 bg-fathom-terracotta text-white px-4 py-3 shadow-2xl z-10">
         <p className="text-[9px] uppercase tracking-widest font-bold mb-0.5">Company Profile</p>
