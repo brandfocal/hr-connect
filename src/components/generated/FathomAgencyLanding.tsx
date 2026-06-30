@@ -1047,7 +1047,7 @@ const FounderSection = () => {
   return <section id="leadership" className="w-full bg-[#1C1A18] overflow-hidden flex flex-col lg:flex-row">
     {/* Photo: top on mobile, left on desktop */}
     <div className="w-full lg:w-[44%] h-[320px] sm:h-[400px] lg:h-auto lg:min-h-screen relative overflow-hidden shrink-0">
-      <img src="/hr-connect9.jpg" alt="Lesego Tema: Founder & Managing Executive, Hired Connect" className="w-full h-full object-cover object-top" />
+      <img src="/hr-connect9.jpg" alt="Nthabiseng Mosena: Founder & Managing Executive, Hired Connect" className="w-full h-full object-cover object-top" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1C1A18]/80 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1C1A18]/30 hidden lg:block" />
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-fathom-terracotta" />
@@ -1066,8 +1066,8 @@ const FounderSection = () => {
         </motion.div>
 
         <motion.h2 variants={FADE_UP_VARIANTS} className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[96px] font-serif text-white leading-[0.88] tracking-[-0.04em] mb-7 md:mb-8">
-          Lesego
-          <span className="block italic text-fathom-terracotta">Tema</span>
+          Nthabiseng
+          <span className="block italic text-fathom-terracotta">Mosena</span>
         </motion.h2>
 
         <motion.blockquote variants={FADE_UP_VARIANTS} className="font-serif italic text-xl sm:text-2xl md:text-3xl text-white/80 leading-snug mb-8 md:mb-10 border-l-2 border-fathom-terracotta pl-6">
@@ -1076,10 +1076,10 @@ const FounderSection = () => {
 
         <motion.div variants={FADE_UP_VARIANTS} className="space-y-4 md:space-y-5 text-white/55 text-sm leading-relaxed font-light">
           <p>
-            Lesego Tema is the Founder and Managing Executive of Hired Connect, a 100% Black woman-owned human capital, leadership development and talent solutions firm dedicated to developing leaders, connecting talent and enabling organisational growth.
+            Nthabiseng Mosena is the Founder and Managing Executive of Hired Connect, a 100% Black woman-owned human capital, leadership development and talent solutions firm dedicated to developing leaders, connecting talent and enabling organisational growth.
           </p>
           <p>
-            With more than 10 years of experience spanning human capital management, talent acquisition, executive recruitment, leadership development, organisational capability, learning and development, stakeholder engagement and premium corporate event delivery, Lesego has established a reputation for delivering innovative, commercially focused and people-centred solutions that create measurable organisational impact.
+            With more than 10 years of experience spanning human capital management, talent acquisition, executive recruitment, leadership development, organisational capability, learning and development, stakeholder engagement and premium corporate event delivery, Nthabiseng has established a reputation for delivering innovative, commercially focused and people-centred solutions that create measurable organisational impact.
           </p>
 
           <AnimatePresence initial={false}>
@@ -1095,13 +1095,13 @@ const FounderSection = () => {
                   Throughout her career, she has partnered with organisations across the public and private sectors to design and implement high-impact human capital strategies, build leadership capability, attract exceptional talent and develop customised learning experiences that strengthen organisational performance and accelerate business growth.
                 </p>
                 <p>
-                  As a passionate advocate for leadership excellence, women's advancement and workforce transformation, Lesego believes that people remain every organisation's greatest competitive advantage. Her leadership philosophy is centred on empowering individuals, strengthening teams and enabling organisations to thrive in an evolving world of work.
+                  As a passionate advocate for leadership excellence, women's advancement and workforce transformation, Nthabiseng believes that people remain every organisation's greatest competitive advantage. Her leadership philosophy is centred on empowering individuals, strengthening teams and enabling organisations to thrive in an evolving world of work.
                 </p>
                 <p>
                   Supported by a multidisciplinary team of experienced human capital specialists, facilitators, executive coaches, learning professionals and project managers, Hired Connect delivers integrated solutions that combine strategic insight with execution excellence. Together, they have successfully designed and delivered leadership programmes, executive development initiatives, talent acquisition projects, customised learning interventions and premium corporate conferences for organisations seeking sustainable people and business outcomes.
                 </p>
                 <p>
-                  Under Lesego's leadership, Hired Connect continues to position itself as a trusted strategic partner to organisations committed to building future-ready workforces, developing exceptional leaders and creating cultures of high performance.
+                  Under Nthabiseng's leadership, Hired Connect continues to position itself as a trusted strategic partner to organisations committed to building future-ready workforces, developing exceptional leaders and creating cultures of high performance.
                 </p>
               </motion.div>
             )}
@@ -1116,7 +1116,7 @@ const FounderSection = () => {
             {isExpanded ? "Read Less" : "Read More"}
           </button>
           <a href="#connect" className="bg-fathom-terracotta text-white px-7 py-3.5 rounded-full text-[10px] uppercase tracking-widest font-bold hover:bg-white hover:text-fathom-ink transition-colors duration-300 flex items-center gap-2 group">
-            Connect with Lesego
+            Connect with Nthabiseng
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>
@@ -1212,8 +1212,11 @@ const ContactSection = () => {
                     <p className="text-[8px] uppercase tracking-[0.2em] font-bold text-fathom-terracotta mb-0.5">
                       Founder &amp; Managing Executive
                     </p>
-                    <a href="mailto:lesego@hiredconnect.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200">
-                      lesego@hiredconnect.co.za
+                    <a href="mailto:nthabiseng@hiredconnect.co.za" className="text-white text-sm md:text-base hover:text-fathom-terracotta transition-colors duration-200 block">
+                      nthabiseng@hiredconnect.co.za
+                    </a>
+                    <a href="tel:+27713520736" className="text-white/50 text-xs hover:text-fathom-terracotta transition-colors duration-200">
+                      071 352 0736
                     </a>
                   </div>
                   <div>
